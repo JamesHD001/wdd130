@@ -13,7 +13,7 @@ h1 {
   color: darkblue;
 }
 
-img {
+main img {
   width: 150px;
   height: auto;
   border: 1px solid black;
@@ -23,4 +23,18 @@ img {
 
 p {
   padding: 10px;
+}
+
+aside {
+  background-color: lightblue;
+  color: darkblue;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid darkblue;
+  width: 300px;
+}
+
+aside img {
+  max-width: 200%;
+  height: auto;
 }
