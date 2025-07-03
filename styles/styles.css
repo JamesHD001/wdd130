@@ -32,10 +32,7 @@ aside {
   padding: 1rem;
   background-color: #eee;
   color: #333;
-  padding: 1rem;
-  margin: 1rem;
-  border: 1px solid rgb(0 0 0 / 0.2);
-  width: 20rem;
+  text-align: center;
 }
 
 aside img {
