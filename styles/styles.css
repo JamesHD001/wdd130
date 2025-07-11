@@ -29,7 +29,7 @@ h1 {
 
 main {
   max-width: 840px;
-  margin: 10 auto;
+  margin: 10px auto;
   padding: 1rem;
   font-family: var(--body-font);
 }
