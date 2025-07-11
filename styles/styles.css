@@ -51,6 +51,7 @@ aside {
 aside img {
   max-width: 200%;
   height: auto;
+  float: right;
 }
 
 footer {
