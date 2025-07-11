@@ -3,6 +3,7 @@
   --main-text-color: #333;
   --link-color: #0066cc;
   --heading-font: 'Arial', sans-serif;
+  --body-font: 'Verdana', sans-serif;
 }
 
 * {
@@ -47,6 +48,15 @@ aside {
   background-color: #eee;
   color: #333;
   text-align: center;
+  position: relative; 
+}
+
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
+  margin-bottom: 10px;
+  font-family: var(--heading-font);
 }
 
 aside img {
