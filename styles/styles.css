@@ -1,10 +1,14 @@
+:root {
+  --main-bg-color: #f0f0f0;
+  --main-text-color: #333;
+  --link-color: #0066cc;}
 nav {
   background-color: darkblue;
   padding: 10px;
 }
 
 nav a {
-  color: white;
+  color: var(--link-color);
   display: block;
   padding: 20px;
 }
