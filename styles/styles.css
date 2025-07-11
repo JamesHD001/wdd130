@@ -1,7 +1,9 @@
 :root {
   --main-bg-color: #f0f0f0;
   --main-text-color: #333;
-  --link-color: #0066cc;}
+  --link-color: #0066cc;
+  --heading-font: 'Arial', sans-serif;
+}
 nav {
   background-color: darkblue;
   padding: 10px;
