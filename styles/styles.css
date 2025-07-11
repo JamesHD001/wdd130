@@ -29,6 +29,9 @@ h1 {
 
 main {
   max-width: 840px;
+  margin: 10 auto;
+  padding: 1rem;
+  font-family: var(--body-font);
 }
 
 main img {
