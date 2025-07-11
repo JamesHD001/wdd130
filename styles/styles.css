@@ -36,6 +36,7 @@ main img {
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
 }
 
 p {padding: 0;}
@@ -51,7 +52,6 @@ aside {
 aside img {
   max-width: 200%;
   height: auto;
-  float: right;
 }
 
 footer {
