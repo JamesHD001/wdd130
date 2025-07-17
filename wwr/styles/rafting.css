@@ -56,7 +56,7 @@ h1, h2 {
   color: var(--primary-color);
 }
 
-.hero {
+.hero div {
   background-color: var(--primary-color);
   background-image: url('images/rafting-hero.jpg');
   background-size: cover;
@@ -66,14 +66,14 @@ h1, h2 {
   text-align: center;
 }
 
-.hero h1 {
+.hero div h1 {
   background-color: var(--accent1-color);
   color: black;
   padding: 10px;
   margin-bottom: 20px;
 }
 
-.hero article {
+.hero div article {
   background-color: white;
   color: black;
   padding: 16px;
@@ -82,7 +82,7 @@ h1, h2 {
   margin: 0 auto;
 }
 
-.hero article img {
+.hero div article img {
   float: right;
   width: 120px;
   height: 120px;
@@ -91,7 +91,7 @@ h1, h2 {
   border: 2px solid var(--primary-color);
 }
 
-.hero article::after {
+.hero div article::after {
   content: "";
   display: block;
   clear: both;
