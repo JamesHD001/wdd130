@@ -70,3 +70,8 @@ h1 {
   margin: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+footer img {
+  max-width: 10%;
+  max-height: auto;
+}
