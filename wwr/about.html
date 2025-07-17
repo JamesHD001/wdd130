@@ -1,60 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="rafting.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.google.com/specimen/Winky+Rough?categoryFilters=Sans+Serif:%2FSans%2FRounded" rel="stylesheet">
-    <link href="https://fonts.google.com/specimen/Nunito+Sans?categoryFilters=Sans+Serif:%2FSans%2FRounded" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Winky+Rough&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="rafting.css" />
 </head>
 <body>
-    <header>
-        <img src="images/wwr-logo.png" alt="Rafting Company Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <div class="hero">
-            <h1>White Water Rafting</h1>
-            <article>
-                <img src="images/happy-smile.jpg" alt="Happy client rafting">
-                <p>Adventure. Thrill. Connection. Our rafting experiences bring joy to every wave!</p>
-            </article>
-        </div>
-          <section>
-        <h2>History</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing ...</p>
-    </section>
+  <header>
+    <img src="images/wwr-logo.png" alt="Rafting Company Logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>White Water Rafting</h1>
+      <article>
+        <img src="images/happy-smile.jpg" alt="Happy client rafting" />
+        <p>Adventure. Thrill. Connection. Our rafting experiences bring joy to every wave!</p>
+      </article>
+    </div>
+
     <section>
-        <h2>Adventure Awaits You!</h2>
-        <img src="images/adventure1.jpg" alt="Family fun">
-        <img src="images/adventure2.jpg" alt="Buddy adventure">
-        <img src="images/adventure3.jpg" alt="Fun time family">
-        <img src="images/adventure4.jpg" alt="Exciting Family Rafting">
-        <img src="images/adventure5.jpg" alt="Happy family rafting">
+      <h2>History</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellendus, labore fuga eaque aliquid omnis?</p>
     </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 White Water Rafting Co</p>
-        <nav class="socialmedia">
-        <a href="https://facebook.com">
-            <img src="images/facebook.png" alt="Facebook">
-        </a>
-        <a href="https://x.com">
-            <img src="images/twitter.png" alt="X formerly-Twitter">
-        </a>
-        <a href="https://instagram.com">
-            <img src="images/instagram.jpg" alt="Instagram">
-        </a>
-        </nav>
-    </footer>
+
+    <section>
+      <h2>Adventure Awaits You!</h2>
+      <img src="images/adventure1.jpg" alt="Family fun" />
+      <img src="images/adventure2.jpg" alt="Buddy adventure" />
+      <img src="images/adventure3.jpg" alt="Fun time family" />
+      <img src="images/adventure4.jpg" alt="Exciting Family Rafting" />
+      <img src="images/adventure5.jpg" alt="Happy family rafting" />
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> White Water Rafting Co</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com">
+        <img src="images/facebook.png" alt="Facebook" />
+      </a>
+      <a href="https://x.com">
+        <img src="images/twitter.png" alt="X formerly-Twitter" />
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.jpg" alt="Instagram" />
+      </a>
+    </nav>
+  </footer>
+
+  <script>
+    // Optional: Automatically insert current year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
