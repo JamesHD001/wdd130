@@ -57,7 +57,7 @@ h1, h2 {
 }
 
 .hero {
-  background-image: url('images/happy-smile.jpg');
+  background-image: url('../images/happy-smile.jpg');
   background-size: cover;
   background-position: center;
   height: 350px;
