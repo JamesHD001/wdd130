@@ -72,7 +72,7 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 250px; /* Adjust height as needed */
+  min-height: 380px;
   padding: 20px;
 }
 
@@ -89,6 +89,8 @@ h1, h2 {
   font-size: 1.2rem;
   margin: 0;
   align-self: flex-end;
+  background-color: var(--accent2-color);
+  color:#FFE066
 }
 
 section {
