@@ -16,14 +16,14 @@ body {
 
 header {
   display: flex;
-  align-items: center;
+  align-items: row;
   justify-content: space-between;
   background-color: var(--primary-color);
   padding: 1rem 2rem;
 }
 
 header img {
-  height: 60px;
+  height: 100px;
 }
 
 nav {
@@ -110,23 +110,41 @@ h2 {
 
 footer {
   background-color: var(--primary-color);
-  color: #fff;
-  text-align: center;
   padding: 1rem;
+  color: var(--secondary-color);
+}
+
+.footer-content {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  flex: 1;
+  text-align: center;
+  margin: 0;
 }
 
 .socialmedia {
-  margin-top: 0.5rem;
+  position: absolute;
+  right: 0;
   display: flex;
   gap: 1rem;
 }
 
 .socialmedia img {
-  height: 30px;
-  width: 30px;
+  width: 24px;
+  height: 24px;
+  filter: brightness(11.25rem) invert(1);
+  transition: transform 0.2s;
+}
+
+.socialmedia img:hover {
+  transform: scale(1.1);
 }
 
 .about-section {
