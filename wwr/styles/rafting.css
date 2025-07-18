@@ -62,10 +62,13 @@ nav a:hover {
   font-family: var(--font-logo);
   font-size: 3rem;
   margin: 0;
+  align-self: flex-start;
 }
 
 .hero p {
+  margin: 1rem 0;
   font-size: 1.25rem;
+  align-self: flex-end;
 }
 
 main {
