@@ -105,7 +105,7 @@ h2 {
 
 .gallery img:hover {
   transform: scale(1.05);
-  border-color: var(--accent2-color); /* fixed from --accent-color */
+  border-color: var(--accent2-color);
 }
 
 footer {
