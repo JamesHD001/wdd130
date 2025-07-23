@@ -15,11 +15,12 @@ body {
 }
 
 header {
-  display: flex;
-  align-items: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
   background-color: var(--primary-color);
   padding: 1rem 2rem;
+  gap: 2rem;
 }
 
 header img {
