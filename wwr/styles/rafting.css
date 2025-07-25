@@ -140,7 +140,7 @@ footer {
 .socialmedia img {
   width: 24px;
   height: 24px;
-  filter: brightness(11.25rem) invert(1);
+  filter: brightness(1.25) invert(1);
   transition: transform 0.2s;
 }
 
