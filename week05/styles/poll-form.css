@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Candara, Georgia, serif;
+  font-size: 1.2em;
+  color: #300123f3;
+  background: #fff;
+} 
+
+header {
+  margin: 0 auto;
+  width: 650px;
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 1.5em;
+  color: rgba(119, 0, 128, 0.733);
+  text-align: center;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: rgba(109, 0, 128, 0.477);
+  font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+  font-family: Candara, Arial, sans-serif;
+}
+
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  vertical-align: bottom;
+}
