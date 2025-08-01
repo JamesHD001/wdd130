@@ -1,0 +1,120 @@
+:root {
+  --primary-color: #1675F1;
+  --secondary-color: #F60C08;
+  --accent1-color: #FFE066;
+  --accent2-color: #FD11D6;
+  --font-main: 'Nunito Sans', sans-serif;
+  --font-logo: 'Winky Rough', cursive;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: #f7f9fb;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav a {
+  color: white;
+  margin: 0 0.75rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active {
+  border-bottom: 2px solid var(--accent1-color);
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+form fieldset {
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+form legend {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #c90b06;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+}
+
+.socialmedia img {
+  height: 30px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
