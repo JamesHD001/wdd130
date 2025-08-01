@@ -56,7 +56,7 @@ main {
 
 h1, h2 {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   color: var(--primary-color);
 }
 
@@ -65,12 +65,19 @@ h1, h2 {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-  margin: 2rem 0;
+  margin: 2.5rem 0;
+}
+
+.employee-section figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 180px;
   text-align: center;
 }
 
 .employee-section img {
-  width: 180px;
+  width: 100%;
   border-radius: 8px;
   display: flex;
   justify-content: center;
