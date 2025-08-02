@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="author" content="Henry Daniel James"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Henry Daniel James" />
   <meta name="description" content="Contact Us Page for White Water Rafting" />
-  <title>Contact US - White Water Rafting Co</title>
+  <title>Contact Us - White Water Rafting Co</title>
   <link rel="stylesheet" href="styles/contact-us.css" />
-  <link rel="stylesheet" href="styles/rafting.css"/>
+  <link rel="stylesheet" href="styles/rafting.css" />
 </head>
-<body> 
+<body>
   <header>
     <img src="images/wwr-logo.png" alt="White Water Rafting Logo" width="80" />
     <nav>
@@ -23,6 +23,7 @@
   </header>
 
   <main>
+    <!-- Employee Section -->
     <section class="employee-section">
       <fieldset>
         <legend>Meet Our Team</legend>
@@ -35,65 +36,73 @@
         <div class="employee-gallery">
           <figure>
             <img src="images/employee1.jpg" alt="Sunday Augustine - Senior Guide" />
-            <figcaption>Sunday Augustine<br>Senior Guide</figcaption>
+            <figcaption>Sunday Augustine<br />Senior Guide</figcaption>
           </figure>
           <figure>
             <img src="images/employee2.jpg" alt="Victoria Josiah - Safety Officer" />
-            <figcaption>Victoria Josiah<br>Safety Officer</figcaption>
+            <figcaption>Victoria Josiah<br />Safety Officer</figcaption>
           </figure>
           <figure>
             <img src="images/employee3.jpeg" alt="Henry James - Operations Manager" />
-            <figcaption>Henry James<br>Operations Manager</figcaption>
+            <figcaption>Henry James<br />Operations Manager</figcaption>
           </figure>
         </div>
       </fieldset>
     </section>
 
+    <!-- Contact Info -->
     <section class="contact-info">
       <h1>Our Office</h1>
       <p><strong>Address:</strong> 123 River Lane, Abuja, Nigeria</p>
       <p><strong>Phone:</strong> (208) 555-0123</p>
       <p><strong>Email:</strong> info@whitewaterriver.com</p>
       <div class="map">
-        <iframe 
-          src="https://maps.google.com/maps?q=Abuja,%20Nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-          loading="lazy" 
-          title="Our Office Location" 
+        <iframe
+          src="https://maps.google.com/maps?q=Abuja,%20Nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          loading="lazy"
+          title="Our Office Location"
           aria-label="Map of our location">
         </iframe>
       </div>
     </section>
 
+    <!-- Contact Form -->
     <section class="contact-form">
       <h2>Send Us a Message</h2>
-      <form class="contact-form" action="#" method="post">
+      <form action="#" method="post">
         <fieldset>
           <legend>Contact Information</legend>
-          <label for="name">Name:</label>
+          <label for="name">Name:
             <input type="text" id="name" name="name" required />
           </label>
-          <label for="email">Email:</label>
+          <label for="email">Email:
             <input type="email" id="email" name="email" required />
           </label>
         </fieldset>
-        <br>
 
         <fieldset>
           <legend>Purpose of Message</legend>
-          <label><input type="radio" name="purpose" value="general" required /> General Inquiry</label>
-          <label><input type="radio" name="purpose" value="reservation" /> Reservation Question</label>
-          <label><input type="radio" name="purpose" value="suggestion" /> Website Suggestion</label>
-        </fieldset>
-        <br>
-
-        <fieldset>
-          <legend>Your Message</legend>
-          <label for="message">
-            <textarea id="message" name="message" rows="6" placeholder="Enter Your message here..." required></textarea>
+          <label>
+            <input type="radio" name="purpose" value="general" required />
+            General Inquiry
+          </label>
+          <label>
+            <input type="radio" name="purpose" value="reservation" />
+            Reservation Question
+          </label>
+          <label>
+            <input type="radio" name="purpose" value="suggestion" />
+            Website Suggestion
           </label>
         </fieldset>
 
-        <br>
+        <fieldset>
+          <legend>Your Message</legend>
+          <label for="message">Message:
+            <textarea id="message" name="message" rows="6" placeholder="Enter your message here..." required></textarea>
+          </label>
+        </fieldset>
+
         <fieldset>
           <legend>Preferences</legend>
           <label>
@@ -101,7 +110,6 @@
             Please subscribe me to the monthly newsletter
           </label>
         </fieldset>
-        <br>
 
         <button type="submit">Send Message</button>
       </form>
@@ -110,7 +118,7 @@
 
   <footer>
     <div class="footer-content">
-      <p>©2025 🌊 White Water Rafting. | All rights reserved | James Henry.</p><br>
+      <p>©2025 🌊 White Water Rafting. | All rights reserved | James Henry.</p>
       <p><a href="https://app.moqups.com/WsSrSWzTJQKzsj7CoVA2XqD87AjGUK6N/view/page/a24b2c9fa" target="_blank">View Wireframe</a></p>
       <div class="socialmedia">
         <a href="#"><img src="images/facebook.png" alt="Facebook Logo" /></a>
