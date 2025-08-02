@@ -150,36 +150,42 @@ main {
 
 footer {
   background-color: var(--primary-color);
-  color: white;
   padding: 1rem;
-  text-align: center;
-  margin-top: 2rem;
+  color: #fff;
 }
 
 .footer-content {
-  max-width: 960px;
-  margin: auto;
-}
-
-.footer-content a {
-  color: var(--accent1-color);
-  text-decoration: underline;
-}
-
-.footer-content .socialmedia {
-  margin-top: 1rem;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+.socialmedia {
+  position: absolute;
+  right: 0;
+  display: flex;
   gap: 1rem;
 }
 
-.footer-content .socialmedia a img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
+.socialmedia img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s;
 }
+
+.socialmedia img:hover {
+  transform: scale(1.1);
+}
+
 
 @media (max-width: 768px) {
   .employee-gallery {
