@@ -5,6 +5,8 @@
   --accent2-color: #FD11D6;
   --font-main: 'Nunito Sans', sans-serif;
   --font-logo: 'Winky Rough', cursive;
+  --neutral-light: #f9f9f9;
+  --neutral-dark: #333333;
 }
 
 * {
@@ -18,8 +20,6 @@ body {
   line-height: 1.6;
   color: var(--neutral-dark);
   background-color: var(--neutral-light);
-  padding: 0;
-  margin: 0;
 }
 
 header {
@@ -29,6 +29,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header img {
@@ -39,6 +40,7 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -61,12 +63,93 @@ main {
   margin: auto;
 }
 
+.contact-info,
+.contact-form,
+.employee-section fieldset {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+}
+
+.contact-info {
+  border-left: 5px solid var(--accent2-color);
+}
+
+.contact-info h1 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.contact-form {
+  border: 2px solid var(--primary-color);
+}
+
+.contact-form h2 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+form fieldset {
+  margin-bottom: 1.5rem;
+  border: none;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 0.3rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--accent1-color);
+  color: var(--neutral-dark);
+}
+
 .employee-section fieldset {
   border: 2px solid var(--primary-color);
-  padding: 1.5rem;
-  background-color: #fff;
-  margin-bottom: 2rem;
-  border-radius: 10px;
 }
 
 .employee-section legend {
@@ -101,87 +184,6 @@ main {
   font-weight: bold;
 }
 
-.contact-info {
-  margin-bottom: 2.5rem;
-  background-color: #fff;
-  padding: 1.5rem;
-  border-radius: 10px;
-  border-left: 5px solid var(--accent2-color);
-}
-
-.contact-info h1 {
-  color: var(--secondary-color);
-  margin-bottom: 1rem;
-}
-
-.contact-info p {
-  margin-bottom: 0.5rem;
-}
-
-.map iframe {
-  width: 100%;
-  height: 300px;
-  border: 2px solid var(--primary-color);
-  border-radius: 8px;
-  margin-top: 1rem;
-}
-
-.contact-form {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  border: 2px solid var(--primary-color);
-}
-
-.contact-form h2 {
-  color: var(--secondary-color);
-  margin-bottom: 1rem;
-}
-
-form fieldset {
-  margin-bottom: 1.5rem;
-  border: none;
-}
-
-form label {
-  display: block;
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 0.7rem;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  margin-top: 0.3rem;
-}
-
-textarea {
-  resize: vertical;
-}
-
-input[type="radio"],
-input[type="checkbox"] {
-  margin-right: 0.5rem;
-}
-
-button[type="submit"] {
-  background-color: var(--primary-color);
-  color: #fff;
-  padding: 0.8rem 1.5rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-button[type="submit"]:hover {
-  background-color: var(--secondary-color);
-}
-
 footer {
   background-color: var(--primary-color);
   color: #fff;
@@ -194,6 +196,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .footer-content a {
@@ -202,9 +205,9 @@ footer {
 }
 
 .socialmedia {
-  margin-top: 1rem;
   display: flex;
   gap: 1rem;
+  margin-top: 0.5rem;
 }
 
 .socialmedia img {
