@@ -1,0 +1,141 @@
+:root {
+  --primary-color: #1675F1;
+  --secondary-color: #ffffff;
+  --accent1-color: #FFE066;
+  --accent2-color: #FD11D6;
+  --font-main: 'Nunito Sans', sans-serif;
+  --font-logo: 'Winky Rough', cursive;
+}
+
+body {
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  color: var(--secondary-color);
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+nav a.active {
+  border-bottom: 2px solid var(--accent1-color);
+}
+
+main {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.employee-section fieldset,
+.contact-form form fieldset {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.employee-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.employee-gallery figure {
+  width: 200px;
+  text-align: center;
+}
+
+.employee-gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.contact-info,
+.contact-form {
+  margin-top: 2rem;
+}
+
+.contact-info h1,
+.contact-form h2 {
+  color: var(--primary-color);
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #0d5cc1;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialmedia a img {
+  width: 32px;
+  margin: 0 8px;
+  filter: brightness(0) invert(1);
+}
