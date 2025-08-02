@@ -7,6 +7,14 @@
   --font-logo: 'Rock Salt', cursive;
 }
 
+body {
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -28,14 +36,6 @@ nav a {
 nav a:hover {
   text-decoration: underline;
   color: var(--accent2-color);
-}
-
-body {
-  font-family: var(--font-main);
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #222;
 }
 
 main {
@@ -185,7 +185,6 @@ footer {
 .socialmedia img:hover {
   transform: scale(1.1);
 }
-
 
 @media (max-width: 768px) {
   .employee-gallery {
