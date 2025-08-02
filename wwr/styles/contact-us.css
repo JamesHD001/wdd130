@@ -7,6 +7,29 @@
   --font-logo: 'Rock Salt', cursive;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+}
+
+header img {
+  height: 100px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: var(--accent2-color);
+}
+
 body {
   font-family: var(--font-main);
   margin: 0;
