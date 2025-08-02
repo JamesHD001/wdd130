@@ -62,7 +62,6 @@ main {
   margin: auto;
 }
 
-/* Employee Section */
 .employee-section fieldset {
   border: 2px solid var(--primary-color);
   padding: 1.5rem;
@@ -103,7 +102,6 @@ main {
   font-weight: bold;
 }
 
-/* Contact Info */
 .contact-info {
   margin-bottom: 2.5rem;
   background-color: #fff;
@@ -129,7 +127,6 @@ main {
   margin-top: 1rem;
 }
 
-/* Contact Form */
 .contact-form {
   background-color: #fff;
   padding: 2rem;
@@ -186,7 +183,6 @@ button[type="submit"]:hover {
   background-color: var(--secondary-color);
 }
 
-/* Footer */
 footer {
   background-color: var(--primary-color);
   color: #fff;
@@ -218,7 +214,6 @@ footer {
   filter: brightness(1.2) invert(1);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .employee-gallery {
     flex-direction: column;
